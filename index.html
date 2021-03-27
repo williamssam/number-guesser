@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Number Guesser</title>
+   </head>
+   <body>
+      <h1>Number Guesser</h1>
+
+      <div class="guess-container">
+         <h3>Guess a number between 1 to 10</h3>
+         <form>
+            <input
+               type="text"
+               name="user_number"
+               id="user_number"
+               placeholder="Enter your guess "
+            />
+            <input type="submit" id="submit" value="Guess" class="submit-btn" />
+            <input type="submit" id="reset" value="Try Again" class="reset" />
+         </form>
+         <p class="value"></p>
+      </div>
+
+      <img src="./you-rock.gif" alt="" class="you-rock" />
+
+      <footer class="footer">
+         <p>
+            Made with love by Williams Samuel. Follow me on
+            <a href="https://twitter.com/drealbreezy" target="_blank"
+               >Twitter
+            </a>
+         </p>
+      </footer>
+      <script src="script.js"></script>
+   </body>
+</html>
